@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me = {
+  name: "marcus",
+  age: 24,
+}
+alert(me.name)
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: "band",
+  food: "pizza",
+  person: "person",
+  book: "book",
+  movie: "movie",
+  holiday: "holiday",
+}
 
 
 /*
@@ -35,6 +46,8 @@
 
 //Code here
 
+favoriteThings.car = "Sequoia";
+favoriteThings.brand = "Toyota";
 
 
 /*
@@ -43,7 +56,8 @@
 
 //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = 'Harry Potter';
 
 ////////// PROBLEM 3 //////////
 
