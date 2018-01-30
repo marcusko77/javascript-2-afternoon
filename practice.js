@@ -112,7 +112,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 ////////// EXTRA PRACTICE PROBLEMS BELOW //////////
 
@@ -124,6 +125,8 @@ var user2 = {
 
 //Code Here
 
+var methodCollection = {}
+
 
 
 /*
@@ -132,7 +135,12 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello = function(){
+  alert('hello');
+}
+methodCollection.logHello = function(){
+  console.log('hello');
+};
 
 
 /*
@@ -141,7 +149,8 @@ var user2 = {
 
 //Code Here
 
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 ////////// PROBLEM 6 //////////
 
@@ -164,3 +173,11 @@ var user2 = {
 //Code Here
 
 
+function makeCard(cardNumber, expirationDate, securityCode){
+  var creditCard = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode,
+  }
+  return creditCard;
+}
